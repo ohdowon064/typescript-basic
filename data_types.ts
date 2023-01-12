@@ -69,3 +69,5 @@ let root: TreeNode<number> = {
 };
 
 type Confirm = "Yes" | "No" | "Cancel";
+
+export {};
