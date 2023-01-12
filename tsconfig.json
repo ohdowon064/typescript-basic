@@ -1,5 +1,5 @@
 {
   "compilerOptions": {
-    "strictPropertyInitialization": false
+    "strictPropertyInitialization": false,
   }
 }
