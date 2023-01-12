@@ -4,3 +4,5 @@ score = ["Tom", 100, 90];
 score[1] = 10;
 
 console.log(score);
+
+export {};
