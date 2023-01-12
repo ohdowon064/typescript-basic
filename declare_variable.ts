@@ -4,5 +4,6 @@ const person = {
     name: "Tom"
 }
 
+// person = {id: 2} -> error
 person.name = "Jerry"
 console.log(person)
