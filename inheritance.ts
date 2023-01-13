@@ -42,4 +42,30 @@ let rect = new Rectangle("MyRect", 100, 100);
 rect.draw();
 console.log(rect.isSquare());
 
+abstract class Shape2 {
+    protected name: string;
+
+    constructor(name: string) {
+        this.name = name;
+    }
+
+    abstract draw();
+}
+
+class Circle extends Shape2 {
+    public radius: number;
+
+    constructor(name: string, radius: number) {
+        super(name);
+        this.radius = radius;
+    }
+
+    draw() {
+        console.log(`Drawing Circle ${this.radius} ${this.name}`);
+    }
+}
+
+let circle = new Circle("MyCircle", 100);
+circle.draw();
+
 export {};
