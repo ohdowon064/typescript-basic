@@ -46,7 +46,7 @@ let counter = c1.increase();
 let n = counter();
 
 console.log(typeof n, n); // NaN
-// js에서 this는 함수 실행 시점에 전달되는데, top 레벨 함수의 this는 windown(전역개체)이다.
+// js에서 this는 함수 실행 시점에 전달되는데, top 레벨 함수의 this는 windown(전역객체)이다.
 // window는 count 프로퍼티를 가지고 있지 않으므로 NaN이 된다.
 
 
